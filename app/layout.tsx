@@ -1,4 +1,3 @@
-'use client';
 import PrimeryNavbar from '@/components/sidebar/PrimeryNavbar';
 import './globals.css';
 
