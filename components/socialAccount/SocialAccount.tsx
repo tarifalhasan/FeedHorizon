@@ -48,7 +48,7 @@ const SocialAccount = () => {
   );
 
   const AddNewProfile = () => (
-    <div className="account_card border-[3px] border-[#E2E8F0] border-dotted !bg-transparent  grid place-items-center">
+    <div className="add_account_card border-[3px] border-[#E2E8F0] border-dotted !bg-transparent  grid place-items-center">
       <button className="flex items-center flex-col gap-2">
         <FaPlus size={30} />
         <span className=" text-base font-light text-black">Add Account</span>
@@ -64,7 +64,7 @@ const SocialAccount = () => {
           All Accounts managed by FeedHorizon
         </p>
       </div>
-      <div className=" pt-5  grid lg:grid-cols-4 gap-10  ">
+      <div className=" pt-5  grid lg:grid-cols-3 2xl:grid-cols-4 gap-10  ">
         <ProfileCard />
         <AddNewProfile />
       </div>

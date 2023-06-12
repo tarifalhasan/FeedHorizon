@@ -20,15 +20,17 @@ export default function RootLayout({
     <html lang="en">
       <>
         <body className={raleway.className}>
-          <div>
-            <PrimeryNavbar />
-          </div>
-          <div className="  main-content">
-            <div className=" w-full h-full lg:ml-[265px] 2xl:ml-[200px]">
-              <TopNavbar />
-              {children}
+          <main className=" flex w-full ">
+            <div className=" basis-[45%] xl:basis-[35%] 2xl:basis-[30%] ">
+              <PrimeryNavbar />
             </div>
-          </div>
+            <div className="  w-full main-content">
+              <div className=" w-full h-full ">
+                <TopNavbar />
+                {children}
+              </div>
+            </div>
+          </main>
         </body>
       </>
     </html>

@@ -2,8 +2,8 @@ import React from 'react';
 
 const Searchbar = () => {
   return (
-    <div className="w-[364px] mx-auto">
-      <div className="relative flex items-center w-full h-10 rounded-lg focus-within:shadow-lg bg-white overflow-hidden">
+    <div className=" w-full max-w-[364px] mx-auto">
+      <div className="relative border border-primary-border flex items-center w-full h-10 rounded-xl  bg-white overflow-hidden">
         <div className="grid place-items-center h-full w-12 text-gray-300">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -21,10 +21,10 @@ const Searchbar = () => {
           </svg>
         </div>
         <input
-          className="peer h-full w-full outline-none text-sm text-gray-700 pr-2"
+          className=" h-full w-full outline-none font-light text-sm text-black pr-2"
           type="text"
           id="search"
-          placeholder="Search something.."
+          placeholder="Search "
         />
       </div>
     </div>

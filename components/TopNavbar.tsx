@@ -16,6 +16,7 @@ import { BiUserCircle, BiPowerOff } from 'react-icons/bi';
 import { BsChevronDown } from 'react-icons/bs';
 import React from 'react';
 import Searchbar from './Searchbar';
+import NotificationsMenu from './NotificationsMenu';
 const profileMenuItems = [
   {
     label: 'My Profile',
@@ -93,7 +94,8 @@ const TopNavbar = () => {
     <div className=" px-5 flex w-full py-5 items-center justify-between">
       <div></div>
       <Searchbar />
-      <div>
+      <div className=" flex items-center gap-2">
+        <NotificationsMenu />
         <ProfileMenu />
       </div>
     </div>
